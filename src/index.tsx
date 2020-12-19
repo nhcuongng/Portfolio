@@ -1,5 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { Footer, Header, Main } from '@Components/index';
+import '../public/styles/index.scss';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(
+  <div>
+    <Header />
+    <Main />
+    <Footer />
+  </div>,
+document.getElementById('root'));
